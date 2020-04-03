@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Test - Home";
+}
+
+<div class="jumbotron">
+    <h1>Home Category & Product</h1>
+</div>
+
+<div class="row">
+    <li>
+        @Html.ActionLink("Category", "Index", "Category", new { @class = "elements" }, null)
+        @Html.ActionLink("Product", "Index", "Product", new { @class = "elements" }, null)
+    </li>
+</div>
